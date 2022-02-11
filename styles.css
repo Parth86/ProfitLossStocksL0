@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #460897;
+}
+
+body {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+header h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.input-label {
+  font-size: larger;
+  margin: 5rem 0px;
+  font-weight: 700;
+}
+
+.input {
+  font-size: large;
+  display: block;
+  outline: #fff;
+  padding: 1rem 1rem;
+  margin: 1rem auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 225px;
+}
+
+.calculate {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 2rem 0;
+}
